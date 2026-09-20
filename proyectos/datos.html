@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análisis de Datos | Portafolio</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav">
+            <div class="logo">JS</div>
+
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="../index.html#sobre-mi">Sobre mí</a>
+                <a href="../index.html#habilidades">Habilidades</a>
+                <a href="../index.html#proyectos">Proyectos</a>
+                <a href="../index.html#formacion">Formación</a>
+                <a href="../index.html#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- HERO DEL PROYECTO -->
+    <section class="hero project-hero">
+        <div class="container">
+
+            <span class="project-category">
+                ANÁLISIS DE DATOS / PYTHON
+            </span>
+
+            <h1>Análisis Exploratorio: Actividad Física y Salud Estudiantil</h1>
+
+            <p>
+                Estudio analítico de 1,000 registros para identificar patrones de entrenamiento, correlación de variables numéricas y factores de riesgo de lesiones en estudiantes.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- INFORMACIÓN DEL PROYECTO -->
+    <section class="section">
+        <div class="container">
+
+            <h2>Sobre el proyecto</h2>
+
+            <p>
+                Este proyecto consistió en la realización de un Análisis Exploratorio de Datos (EDA) sobre un conjunto de 1,000 registros y 10 variables continuas y categóricas asociadas a hábitos deportivos y métricas de salud (edad, género, IMC, minutos por sesión, nivel de energía e historial de lesiones). Se validó la calidad del dataset comprobando la ausencia de datos nulos o duplicados y se evaluaron correlaciones estadísticas mediante matrices y mapas de calor.
+            </p>
+
+            <div class="project-info">
+
+                <div>
+                    <h3>Herramientas</h3>
+                    <p>Python, Pandas, NumPy, Matplotlib y Seaborn</p>
+                </div>
+
+                <div>
+                    <h3>Metodología</h3>
+                    <p>Análisis Exploratorio de Datos (EDA) & Estadística Descriptiva</p>
+                </div>
+
+                <div>
+                    <h3>Entorno</h3>
+                    <p>Visual Studio Code / Jupyter</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- VISUALIZACIÓN Y HALLAZGOS -->
+    <section class="section section-dark">
+        <div class="container">
+
+            <h2>Visualización de Datos y Hallazgos</h2>
+
+            <div class="project-gallery">
+
+                <div class="gallery-item">
+                    <img src="../img/Datos/DistribucionGenero.png" alt="Gráfica de pastel de distribución por género">
+                    <p>Distribución Demográfica por Género (51.1% F / 48.9% M)</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../img/datos/DistribucionEdad.png" alt="Gráfica de barras de rangos de edad">
+                    <p>Distribución por Rangos de Edad (16 a 35 años)</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../img/datos/ActividadesPracticadas.png" alt="Gráfica de barras horizontales de actividades físicas">
+                    <p>Frecuencia de Actividades (Correr, Fútbol, Ciclismo, etc.)</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../img/datos/MapaCalorLesiones.png" alt="Mapa de calor de relación entre actividad y lesiones">
+                    <p>Heatmap: Incidencia de Lesiones por Disciplina</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../img/datos/MatrizCorrelacion.png" alt="Matriz de correlación entre variables numéricas">
+                    <p>Matriz de Correlación entre Variables Numéricas</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../img/datos/IMCPromedio.png" alt="Gráfica de línea de IMC promedio por actividad">
+                    <p>Promedio de IMC por Tipo de Actividad Física</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PRINCIPALES CONCLUSIONES TÉCNICAS -->
+    <section class="section">
+        <div class="container">
+
+            <h2>Conclusiones Clave del Análisis</h2>
+
+            <div class="about-content">
+                <p>
+                    • <strong>Baja Correlación Lineal Directa:</strong> Las variables numéricas (edad, días por semana, duración de sesión, IMC y energía) mostraron comportamientos independientes, con la correlación positiva más alta entre la edad y días de ejercicio (<em>r ≈ 0.057</em>).
+                </p> <br>
+                <p>
+                    • <strong>Incidencia de Lesiones:</strong> La disciplina con mayor número de estudiantes lesionados fue <em>Correr</em> (91 casos), mientras que el <em>Gimnasio</em> registró el menor índice (63 casos). En deportes como yoga y natación la proporción con y sin lesión fue equivalente (50%).
+                </p> <br>
+                <p>
+                    • <strong>Comportamiento del IMC y Energía:</strong> El IMC se mantuvo estable entre disciplinas con una variación máxima de apenas 0.89 puntos (Fútbol 26.91 vs. Gimnasio 26.02). Además, realizar más días de ejercicio por semana no incrementó linealmente el nivel reportado de energía.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- REGRESAR -->
+    <section class="section">
+        <div class="container">
+
+            <a href="../index.html#proyectos" class="btn btn-primary">
+                ← Regresar a proyectos
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Javier Solís Serrano</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
